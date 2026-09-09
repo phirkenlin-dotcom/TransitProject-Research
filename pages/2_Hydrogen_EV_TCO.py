@@ -4,7 +4,6 @@ import streamlit as st
 
 st.set_page_config(page_title="Fleet TCO — Battery vs. Hydrogen Bus", layout="wide")
 
-
 def calculate_tco(
     beb_purchase,
     fceb_purchase,
