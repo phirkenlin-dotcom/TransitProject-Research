@@ -10,14 +10,14 @@ col1, col2 = st.columns(2)
 
 with col1:
     st.page_link(
-        "pages/1_Transit_Equity.py",
+        "pages/1_Transit_Research.py",
         label="**Public Transit Analysis** — is transit access fair across the district for school students?",
         
     )
 
 with col2:
     st.page_link(
-        "pages/2_Hydrogen_vs_Battery.py",
+        "pages/2_Hydrogen_EV_TCO.py",
         label="**Hydrogen vs. Battery Buses** — which is cheaper in the long run?",
         
     )
