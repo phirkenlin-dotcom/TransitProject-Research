@@ -13,6 +13,9 @@ with col1:
 
 with col2:
          st.write(" Hydrogen vs. Battery Buses — which is cheaper in the long run?")
+          if st.button("View this project →", key="go_transit"):
+            st.session_state.page = "Transit"
+            st.rerun()
 
 st.divider()
 st.header("About Me")
