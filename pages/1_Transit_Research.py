@@ -18,9 +18,9 @@ with col1:
 with col2:
        st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name")
 
-st.header("2. Focus Area: Schools More Than 0.5 Miles Away")
+st.header("2. Geographic Map View")
+st.image("School with Bus Stop Map.jpg", caption="Map of Schools (Blue) and Transit Stops (Orange)")
+
+st.header("3. Focus Area: Schools More Than 0.5 Miles Away")
 st.write("These schools face the greatest distance from public transit options.")
 st.image("Schools With Bus Stops More Than 0.5 Miles away by School Name.jpg", caption="Schools with Bus Stops > 0.5 Miles Away")
-
-st.header("3. Geographic Map View")
-st.image("School with Bus Stop Map.jpg", caption="Map of Schools (Blue) and Transit Stops (Orange)")
