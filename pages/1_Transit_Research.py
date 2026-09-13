@@ -16,8 +16,7 @@ with col1:
     st.dataframe(df, use_container_width=True, height=400)
 
 with col2:
-       st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name",
-              use_container_width=True)
+       st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name")
 
 st.header("2. Geographic Map View")
 st.image("School with Bus Stop Map.jpg", caption="Map of Schools (Blue) and Transit Stops (Orange)")
