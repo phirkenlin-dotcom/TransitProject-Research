@@ -22,18 +22,14 @@ st.header("2. Geographic Map View")
 st.image("School with Bus Stop Map.jpg", caption="Map of Schools (Blue) and Transit Stops (Orange)")
 
 # st.header("3. Focus Area: Schools More Than 0.5 Miles Away")
-st.write("I analyzed about 36 High Schools and Middle Schools in Congressional District 35.I observed that nearly 86% i.e.31 schools are within 0.5 miles of walking distrance")
+st.write("I analyzed about 36 High Schools and Middle Schools in Congressional District 35.I observed that nearly 86% i.e.31 schools are within 0.5 miles of walking distrance.Whereas 5 schools has distance greater than 0.5 miles to or from public transit options")
 st.write("Whereas 5 schools face the greatest distance from public transit options.")
 col1, col2 = st.columns(2)
 
 with col1:
        st.image("Schools By Walking Distances.jpg", caption="Overview of Schools by Distance of Transit Station")
 with col2:
-       st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name")
-
-
-st.image("Schools With Bus Stops More Than 0.5 Miles away by School Name.jpg", caption="Schools with Bus Stops > 0.5 Miles Away")
-
+       st.image("Schools With Bus Stops More Than 0.5 Miles away by School Name.jpg", caption="Schools with Bus Stops > 0.5 Miles Away")
 
 
 
