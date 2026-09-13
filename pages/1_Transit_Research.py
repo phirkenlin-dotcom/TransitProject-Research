@@ -13,10 +13,11 @@ col1, col2 = st.columns(2)
 
 with col1:
     df = pd.read_csv("Distance.csv")
-    st.dataframe(df, use_container_width=True)
+    st.dataframe(df, use_container_width=True, height=400)
 
 with col2:
-       st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name")
+       st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name",
+              use_container_width=True)
 
 st.header("2. Geographic Map View")
 st.image("School with Bus Stop Map.jpg", caption="Map of Schools (Blue) and Transit Stops (Orange)")
