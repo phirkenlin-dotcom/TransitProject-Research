@@ -19,6 +19,10 @@ Do students in California's 35th Congressional District have equitable access to
 
 
 st.subheader("1. Overview: Distance of Transit Stations by School")
+st.write("""
+To evaluate transit equity across the district, I conducted a walking-distance analysis for 36 middle and high schools in the district. Using coordinates for each school and bus stop and the Haversine formula, I calculated the distance from each school to its nearest active bus stop to determine which campuses have strong transit connections and which face access gaps.
+""")
+
 col1, col2 = st.columns(2)
 
 with col1:
