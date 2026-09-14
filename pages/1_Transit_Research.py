@@ -18,9 +18,6 @@ Do students in California's 35th Congressional District have equitable access to
 """)
 
 
-
-This naturally led me to the overarching research question: 
-Do students in California's 35th Congressional District have equitable access to public transportation, and where should new bus stops be placed to improve access to middle and high schools?")
 st.subheader("1. Overview: Distance of Transit Stations by School")
 col1, col2 = st.columns(2)
 
