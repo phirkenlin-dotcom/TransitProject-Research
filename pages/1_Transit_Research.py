@@ -8,7 +8,7 @@ import streamlit as st
 
 st.title("Congressional District 35: Public Transit & Schools Analysis")
 st.write("This analysis explores public transit accessibility for local schools in our district.")
-st.header("1. Overview: Distance of Transit Stations by School")
+st.subheader("1. Overview: Distance of Transit Stations by School")
 col1, col2 = st.columns(2)
 
 with col1:
