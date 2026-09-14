@@ -7,6 +7,8 @@ distance = pd.read_csv("Distance.csv")
 import streamlit as st
 
 st.title("Congressional District 35: Public Transit & Schools Analysis")
+st.header("Congressional District 35: Public Transit & Schools Analysis")
+st.markdown("Congressional District 35: Public Transit & Schools Analysis")
 st.write("This analysis explores public transit accessibility for local schools in our district.")
 
 st.subheader("Background & Motivation :")
@@ -18,7 +20,7 @@ Do students in California's 35th Congressional District have equitable access to
 """)
 
 
-st.subheader("1. Overview: Distance of Transit Stations by School")
+st.subheader(" Overview: Distance of Transit Stations by School")
 st.write("""
 To evaluate transit equity across the district, I conducted a walking-distance analysis for 36 middle and high schools in the district. Using coordinates for each school and bus stop and the Haversine formula, I calculated the distance from each school to its nearest active bus stop to determine which campuses have strong transit connections and which face access gaps.
 """)
@@ -32,7 +34,7 @@ with col1:
 with col2:
        st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name")
 
-st.header("2. Geographic Map View")
+st.header("Geographic Map View")
 st.write("""
 I analyzed about 36 High Schools and Middle Schools in Congressional District 35. I observed that nearly 86% (i.e., 31 schools) are within 0.5 miles of walking distance from public transit options, whereas 5 schools face the greatest distance from public transit options, exceeding 0.5 miles.
 """)
