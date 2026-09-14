@@ -34,7 +34,7 @@ with col1:
 with col2:
        st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name")
 
-st.header("Geographic Map View")
+st.subheader("Geographic Map View")
 st.write("""
 I analyzed about 36 High Schools and Middle Schools in Congressional District 35. I observed that nearly 86% (i.e., 31 schools) are within 0.5 miles of walking distance from public transit options, whereas 5 schools face the greatest distance from public transit options, exceeding 0.5 miles.
 """)
@@ -54,7 +54,7 @@ with col2:
 
 
 
-st.header("Data Sources")
+st.subheader("Data Sources")
 st.write("For this analysis I used various data which is publically available. Below are the key sources that I used for my analysis.")
 st.markdown("""
 - [OmniRide Developer Tools](https://www.omniride.com/contact/developer-tools/)
