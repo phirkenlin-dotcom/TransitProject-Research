@@ -9,7 +9,12 @@ import streamlit as st
 st.title("Congressional District 35: Public Transit & Schools Analysis")
 st.write("This analysis explores public transit accessibility for local schools in our district.")
 st.subheader("Background & Motivation :")
-st.write("While serving on Congresswoman Norma Torres’ Advisory Committee, I became interested in how transportation affects California’s 35th Congressional District. I noticed many students used public transit and I wanted to investigate if the schools in the district had access to buses. Additionally, as someone who used to live in the Netherlands until I was 8, public transit had always been a big part of my life there, and I wished to bring that to my community.
+st.write("""
+While serving on Congresswoman Norma Torres' Advisory Committee, I became interested in how transportation affects California's 35th Congressional District. I noticed many students used public transit and I wanted to investigate if the schools in the district had access to buses. Additionally, as someone who used to live in the Netherlands until I was 8, public transit had always been a big part of my life there, and I wished to bring that to my community.
+
+This naturally led me to the overarching research question:
+Do students in California's 35th Congressional District have equitable access to public transportation, and where should new bus stops be placed to improve access to middle and high schools?
+""")
 
 This naturally led me to the overarching research question: 
 Do students in California's 35th Congressional District have equitable access to public transportation, and where should new bus stops be placed to improve access to middle and high schools?")
