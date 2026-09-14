@@ -49,11 +49,11 @@ At what hydrogen price per kilogram ($/kg) does a hydrogen fuel cell bus become 
 ### How the model works
 The Total Cost of Ownership (TCO) for each vehicle type is calculated by combining three variables over a 500,000-mile lifetime:
 
-Capital Cost: The upfront vehicle price ($850,000 for BEBs vs. $1,000,000 for FCEBs).
+- ** Capital Cost:** The upfront vehicle price ($850,000 for BEBs vs. $1,000,000 for FCEBs).
 
-Operating Cost: Scheduled maintenance expenses per mile ($0.90/mi for BEBs vs. $0.70/mi for FCEBs).
+- ** Operating Cost:** Scheduled maintenance expenses per mile ($0.90/mi for BEBs vs. $0.70/mi for FCEBs).
 
-Energy Cost: Consumption efficiency multiplied by unit fuel price. BEB energy cost relies on electricity ($/kWh) and efficiency (kWh/mile), whereas FCEB energy cost factors hydrogen price ($/kg) converted to a per-mile expense based on fuel efficiency (miles/kg).
+- ** Energy Cost:** Consumption efficiency multiplied by unit fuel price. BEB energy cost relies on electricity (\$/kWh) and efficiency (kWh/mile), whereas FCEB energy cost factors hydrogen price (\$/kg) converted to a per-mile expense based on fuel efficiency (miles/kg).
 
 The model combines these components into a lifetime total for both types of buses and evaluates them across changing hydrogen prices.
 
