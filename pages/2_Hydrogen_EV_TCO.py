@@ -61,14 +61,6 @@ The model combines these components into a lifetime total for both types of buse
 ### Adjust Input Values & Result
 Users can adjust the parameters (purchase price, maintenance cost per mile, vehicle efficiency, electricity rates, and fuel costs) to simulate real-world scenarios and an understanding of how price changes can affect the prices of buses overall. Under typical market conditions (\$0.15/kWh electricity vs. \$8.00/kg hydrogen):
 
-Battery Electric Bus (BEB) TCO: $1,487,500
-
-Hydrogen Fuel Cell Bus (FCEB) TCO: $1,850,000
-
-Cost Difference: $362,500
-
-Model Recommendation: Battery Electric Bus
-
         """
     )
 
