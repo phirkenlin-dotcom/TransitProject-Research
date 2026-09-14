@@ -6,9 +6,9 @@ distance = pd.read_csv("Distance.csv")
 
 import streamlit as st
 
-st.title("Congressional District 35: Public Transit & Schools Analysis")
+#st.title("Congressional District 35: Public Transit & Schools Analysis")
 st.header("Congressional District 35: Public Transit & Schools Analysis")
-st.markdown("Congressional District 35: Public Transit & Schools Analysis")
+#st.markdown("Congressional District 35: Public Transit & Schools Analysis")
 st.write("This analysis explores public transit accessibility for local schools in our district.")
 
 st.subheader("Background & Motivation :")
