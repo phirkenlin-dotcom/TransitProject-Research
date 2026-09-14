@@ -69,15 +69,6 @@ Cost Difference: $362,500
 
 Model Recommendation: Battery Electric Bus
 
-
-### Breakeven Electric vs. Hydrogen Price
-The graph plots total lifetime cost (Y-axis) against changing hydrogen prices per kilogram (X-axis). Because electricity rates remain fixed (assuming prices won't change in the future), the battery-electric bus line remains flat, while the hydrogen bus line slopes upward as fuel prices rise. That being said, the reason why these variables can be changed is to understand how break-even costs can change, as input prices can change.
-
-The intersection point where the two lines cross marks the exact financial break-even cost. At current market rates ($8.00/kg), hydrogen carries a higher lifetime expense. However, if hydrogen production scales up and fuel prices drop below the break-even threshold on the X-axis, hydrogen fuel cell buses become the lower-cost solution over a 500,000-mile lifecycle.
-
-### Interpretation
-While battery-electric buses seem to win under current costs,  models alone do not capture the full picture. Transit agencies choosing between these technologies must weigh trade-offs: battery-electric fleets require heavy investment in charging infrastructure and route adjustments for charging times, while hydrogen fleets fit existing route schedules but require hydrogen production costs to decline.
-
         """
     )
 
@@ -219,7 +210,15 @@ st.line_chart(chart_df)
 st.markdown(
 """
 
+### 
+### Breakeven Electric vs. Hydrogen Price
+The graph plots total lifetime cost (Y-axis) against changing hydrogen prices per kilogram (X-axis). Because electricity rates remain fixed (assuming prices won't change in the future), the battery-electric bus line remains flat, while the hydrogen bus line slopes upward as fuel prices rise. That being said, the reason why these variables can be changed is to understand how break-even costs can change, as input prices can change.
+
+The intersection point where the two lines cross marks the exact financial break-even cost. At current market rates ($8.00/kg), hydrogen carries a higher lifetime expense. However, if hydrogen production scales up and fuel prices drop below the break-even threshold on the X-axis, hydrogen fuel cell buses become the lower-cost solution over a 500,000-mile lifecycle.
+
 ### Interpretation
+While battery-electric buses seem to win under current costs,  models alone do not capture the full picture. Transit agencies choosing between these technologies must weigh trade-offs: battery-electric fleets require heavy investment in charging infrastructure and route adjustments for charging times, while hydrogen fleets fit existing route schedules but require hydrogen production costs to decline.
+
 
 ### Sources
 - [Reference 1 — e.g., FTA or DOE hydrogen bus cost data, with link]
