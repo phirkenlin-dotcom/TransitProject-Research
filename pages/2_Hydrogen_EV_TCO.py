@@ -36,31 +36,47 @@ st.markdown(
       
 """
 ### Introduction
-At current lifetime-mile and maintenance assumptions, hydrogen becomes cost-competitive
-with battery-electric once hydrogen prices fall to roughly **$[X.XX]/kg**
-*(replace with your model's actual break-even — read it off the chart below where the
-two lines cross)*. At today's typical hydrogen prices, **[battery-electric / hydrogen]**
-comes out ahead over the bus's lifetime.
-
-**What that means practically:** [e.g., "At current hydrogen prices, battery-electric
-wins unless hydrogen production costs drop substantially — which would require X, Y, or Z
-to happen (cheaper electrolysis, subsidies, regional production, etc.)."]
+During my time on Congresswoman Norma Torres's Youth Advisory Committee, I had the opportunity to meet the Foothill Transit leadership team and tour their Pomona Operations and Maintenance Facility. 
+Foothill Transit operates North America’s largest hydrogen fuel cell bus fleet and houses a 25,000-gallon liquid hydrogen fueling station. 
+While conversing with their team, I learned that while battery-electric buses (BEBs) offer low daily electricity costs, their limited range and long charge cycles create constraints. 
+However, hydrogen fuel cell electric buses (FCEBs) have a fast 8-minute refueling speed, but current hydrogen fuel prices and sourcing make them significantly more expensive to run day-to-day. 
+This economic tradeoff led me to build a Total Cost of Ownership (TCO)  model to analyze when each type of bus makes sense to utilize.
 
 ### The question this model answers
-At what hydrogen price ($/kg) does a hydrogen fuel-cell bus become cheaper, over its
-full lifetime, than a battery-electric bus?
+At what hydrogen price per kilogram ($/kg) does a hydrogen fuel cell bus become cheaper over its full lifetime than a battery-electric bus?
+
 
 ### How the model works
-Total cost of ownership for each bus type is built from three pieces:
-- **Capital cost** — upfront purchase price of the bus
-- **Operating cost** — maintenance cost per mile × lifetime miles
-- **Energy cost** — for battery buses, efficiency (kWh/mile) × electricity price; for
-  hydrogen buses, efficiency (miles/kg) and hydrogen price ($/kg), converted to a
-  per-mile cost
+The Total Cost of Ownership (TCO) for each vehicle type is calculated by combining three variables over a 500,000-mile lifetime:
 
-All three are summed to get each bus type's lifetime total, then compared directly
-against each other and, in the chart below, across a full range of hydrogen prices.
+Capital Cost: The upfront vehicle price ($850,000 for BEBs vs. $1,000,000 for FCEBs).
 
+Operating Cost: Scheduled maintenance expenses per mile ($0.90/mi for BEBs vs. $0.70/mi for FCEBs).
+
+Energy Cost: Consumption efficiency multiplied by unit fuel price. BEB energy cost relies on electricity ($/kWh) and efficiency (kWh/mile), whereas FCEB energy cost factors hydrogen price ($/kg) converted to a per-mile expense based on fuel efficiency (miles/kg).
+
+The model combines these components into a lifetime total for both types of buses and evaluates them across changing hydrogen prices.
+
+
+### Adjust Input Values & Result
+Users can adjust the parameters (purchase price, maintenance cost per mile, vehicle efficiency, electricity rates, and fuel costs) to simulate real-world scenarios and an understanding of how price changes can affect the prices of buses overall. Under typical market conditions ($0.15/kWh electricity vs. $8.00/kg hydrogen):
+
+Battery Electric Bus (BEB) TCO: $1,487,500
+
+Hydrogen Fuel Cell Bus (FCEB) TCO: $1,850,000
+
+Cost Difference: $362,500
+
+Model Recommendation: Battery Electric Bus
+
+
+### Breakeven Electric vs. Hydrogen Price
+The graph plots total lifetime cost (Y-axis) against changing hydrogen prices per kilogram (X-axis). Because electricity rates remain fixed (assuming prices won't change in the future), the battery-electric bus line remains flat, while the hydrogen bus line slopes upward as fuel prices rise. That being said, the reason why these variables can be changed is to understand how break-even costs can change, as input prices can change.
+
+The intersection point where the two lines cross marks the exact financial break-even cost. At current market rates ($8.00/kg), hydrogen carries a higher lifetime expense. However, if hydrogen production scales up and fuel prices drop below the break-even threshold on the X-axis, hydrogen fuel cell buses become the lower-cost solution over a 500,000-mile lifecycle.
+
+### Interpretation
+While battery-electric buses seem to win under current costs,  models alone do not capture the full picture. Transit agencies choosing between these technologies must weigh trade-offs: battery-electric fleets require heavy investment in charging infrastructure and route adjustments for charging times, while hydrogen fleets fit existing route schedules but require hydrogen production costs to decline.
 
         """
     )
