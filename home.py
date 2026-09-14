@@ -26,4 +26,4 @@ with col2:
 st.divider()
 st.header("About Me")
 st.write("[2-3 sentences about yourself — school, interests, how you got into this]")
-st.write("Connect with me on [LinkedIn](https://www.linkedin.com/in/your-link-here)")
+st.write("Connect with me on [LinkedIn](https://www.linkedin.com/in/chinmayee-phirke-4954ab39a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BL56aXZ58RVqZh7HU8cposA%3D%3D)")
