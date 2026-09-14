@@ -58,7 +58,7 @@ The Total Cost of Ownership (TCO) for each vehicle type is calculated by combini
 The model combines these components into a lifetime total for both types of buses and evaluates them across changing hydrogen prices.
 
 
-### Adjust Input Values & Result
+### Adjust Input Values
 Users can adjust the parameters (purchase price, maintenance cost per mile, vehicle efficiency, electricity rates, and fuel costs) to simulate real-world scenarios and an understanding of how price changes can affect the prices of buses overall. Under typical market conditions (\$0.15/kWh electricity vs. \$8.00/kg hydrogen):
 
         """
@@ -66,7 +66,7 @@ Users can adjust the parameters (purchase price, maintenance cost per mile, vehi
 
 
 
-st.subheader("Adjust Input Values")
+#st.subheader("Adjust Input Values")
 col1, col2, col3 = st.columns([2, 2, 1])
 
 with col1:
