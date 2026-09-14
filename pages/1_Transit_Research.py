@@ -33,11 +33,16 @@ with col2:
        st.image("Distance of Transit Station by School Name.jpg", caption="Distance of Transit Station by School Name")
 
 st.header("2. Geographic Map View")
+st.write("""
+I analyzed about 36 High Schools and Middle Schools in Congressional District 35. I observed that nearly 86% (i.e., 31 schools) are within 0.5 miles of walking distance from public transit options, whereas 5 schools face the greatest distance from public transit options, exceeding 0.5 miles.
+""")
 st.image("School with Bus Stop Map.jpg", caption="Map of Schools (Blue) and Transit Stops (Orange)")
 
 # st.header("3. Focus Area: Schools More Than 0.5 Miles Away")
-st.write("I analyzed about 36 High Schools and Middle Schools in Congressional District 35.I observed that nearly 86% i.e.31 schools are within 0.5 miles of walking distrance.Whereas 5 schools has distance greater than 0.5 miles to or from public transit options")
-st.write("Whereas 5 schools face the greatest distance from public transit options.")
+st.write("""
+While 31 schools benefit from short, walkable connections under half a mile (roughly a 15-minute walk), five schools fall into transit access gaps where the nearest stop is farther than 0.5 miles away. Legacy Academy (K-8) experiences the largest gap (3.5 miles from the nearest bus stop), followed by Cal Aero Preserve Academy (2.4 miles), Dr. Augustine Ramirez Intermediate (2.4 miles), Lyle S. Briggs Fundamental (0.6 miles), and Woodcrest Junior High (0.6 miles). Identifying these gaps allows for transit agencies to prioritize new stop placements and improve transit equity for students across the 35th Congressional District.
+""")
+
 col1, col2 = st.columns(2)
 
 with col1:
