@@ -221,8 +221,8 @@ While battery-electric buses seem to win under current costs,  models alone do n
 
 
 ### Sources
-- [Reference 1 — e.g., FTA or DOE hydrogen bus cost data, with link]
-- [Reference 2 — e.g., local transit authority procurement documents]
-- [Reference 3 — e.g., DOE Alternative Fuels Data Center]
+- [Reference 1 — https://www.transit.dot.gov/research-innovation/national-fuel-cell-bus-program-reports]
+- [Reference 2 — Comparative TCO Analysis of Battery Electric and Hydrogen Fuel Cell Buses for Public Transport System in Small to Midsize Cities. https://www.mdpi.com/1996-1073/14/14/4384 ]
+- [Reference 3 — https://www.hydrogen.energy.gov/docs/hydrogenprogramlibraries/pdfs/progress04/vc3_eudy.pdf?sfvrsn=c327c1b2_1]
 """
 )
