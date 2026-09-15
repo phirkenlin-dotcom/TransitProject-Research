@@ -171,7 +171,7 @@ with col3:
 with col4:
     st.write(f"**Recommendation :  {recommendation}**")
     
-st.subheader("Breakeven Electric vs hydrogen price ")
+st.subheader("Break-even Electric vs hydrogen price ")
 
 
 prices = np.linspace(1, 20, 100)
