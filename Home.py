@@ -21,7 +21,7 @@ with col2:
     
 
 st.divider()
-st.subheader("About me")
+st.subheader("About Chinmayee Phirke")
 st.write("""
           My work lies at the intersection of economics and data science.
           I love using logic and math to solve real-world problems and I strive to understand how data and economic choices can improve systems and make a meaningful impact on our environment and communities. 
