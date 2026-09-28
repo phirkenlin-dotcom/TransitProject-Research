@@ -4,17 +4,17 @@ st.set_page_config(page_title="Chinmayee Phirke", layout="wide")
 #st.title("Hi, I'm Chinmayee Phirke")
 st.subheader("My Projects")
 
-    st.page_link(
-        "pages/1_Transit_Research.py",
-        label="**Public Transit Analysis** — is transit access fair across the district for school students?",
-        
-    )
+st.markdown("#### Project 1")
+st.page_link(
+    "pages/1_Transit_Research.py",
+    label="**Public Transit Analysis** — is transit access fair across the district for school students?",
+)
 
-    st.page_link(
-        "pages/2_Hydrogen_EV_TCO.py",
-        label="**Hydrogen vs. Battery Buses** — which is cheaper in the long run?",
-        
-    )
+st.markdown("#### Project 2")
+st.page_link(
+    "pages/2_Hydrogen_EV_TCO.py",
+    label="**Hydrogen vs. Battery Buses** — which is cheaper in the long run?",
+)
     
 
 st.divider()
